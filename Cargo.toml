@@ -1,0 +1,12 @@
+[package]
+name = "agent-health-check"
+version = "0.1.0"
+edition = "2021"
+description = "Health status tracker for LLM agent components"
+license = "MIT"
+repository = "https://github.com/MukundaKatta/agent-health-check-rs"
+keywords = ["llm", "agent", "health", "monitoring", "status"]
+categories = ["development-tools"]
+exclude = ["target/*", ".github/*", "*.log"]
+
+[dependencies]
