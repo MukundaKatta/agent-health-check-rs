@@ -1,1 +1,4 @@
 /target
+
+# Libraries should not commit Cargo.lock (it is derived).
+Cargo.lock
